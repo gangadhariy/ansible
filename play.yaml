@@ -5,5 +5,5 @@
   tasks: 
    - name: copying files on node
      copy:
-       src: /usr/share/nginx/html/
+       src: /var/www/html/
        dest: /tmp/index.html
