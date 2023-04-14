@@ -6,4 +6,4 @@
    - name: copying files on node
      copy:
        src: /tmp/index.html
-       dest: /usr/share/nginx/html/index.html
+       dest: /usr/share/nginx/html/
