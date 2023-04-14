@@ -1,0 +1,8 @@
+---
+- name: command run play
+  hosts: master
+  become: true
+  tasks: 
+    - name: running command
+      script: run.sh
+   

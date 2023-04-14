@@ -1,0 +1,9 @@
+---
+- name: installing kube on all
+  hosts: slaves
+  become: true
+  tasks: 
+   - name: copying files on node
+     copy:
+       src: /usr/share/nginx/html/
+       dest: /tmp/index.html
